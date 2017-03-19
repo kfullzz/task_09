@@ -9,6 +9,8 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
+Package is installable via install_github("kfullzz/Task_09/pets")
+
 At its core, this function is just a simple random number generator and based on that number the function will output whether the user should get a cat or a dog as a pet. 
 
 When running the function, the user inputs an integer which will act as the upper boundary for the potential number that is randomly sampled (1:x, ie if you input 10 the range will be 1-10). Ths inputted number can be infinently high it just must be an integer.
