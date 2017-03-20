@@ -8,14 +8,12 @@
 #'pets_function(827)
 #'pets_function(827)
 
-pets_function <- function(x) {
+pet_function <- function(x) {
   num <- sample(1:x, 1)
   if (num %% 2 == 0) {
-    print(num)
     print("Clearly you are a dog person, so get yourself a pupper")
   }
   else {
-    print(num)
     print("You are a cool cat, so you should get a kitty")
   }
 }

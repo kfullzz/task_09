@@ -3,7 +3,7 @@ Title: A Function for Prospective Pet Owners
 Version: 1.0
 Authors@R: person("Kate", "Fullerton", email = "kfulle16@vols.utk.edu", role = c("aut", "cre"))
 Description: This package allows the user to determine whether they should get a cat or a dog as a pet based on a random number generator. 
-Depends: R (>= 3.2.4)
+Depends: R (>= 3.0.0)
 License: CC0
 Encoding: UTF-8
 LazyData: true
