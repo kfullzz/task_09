@@ -4,9 +4,8 @@
 #'@param x an integer
 #'@return Message on whether user should get a cat or dog
 #'@examples
-#'pets_function(2)
-#'pets_function(827)
-#'pets_function(827)
+#'pet_function(2)
+#'pet_function(827)
 
 pet_function <- function(x) {
   num <- sample(1:x, 1)
