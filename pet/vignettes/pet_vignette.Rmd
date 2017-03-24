@@ -1,0 +1,18 @@
+---
+title: "A Function for Prospective Pet Owners"
+author: "Kate Fullerton"
+date: "170324"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+Package is installable via install_github("kfullzz/task_09/pet")
+
+At its core, this function is just a simple random number generator and based on that number the function will output whether the user should get a cat or a dog as a pet. 
+
+When running the function, the user inputs an integer which will act as the upper boundary for the potential number that is randomly sampled (1:x, ie if you input 10 the range will be 1-10). Ths inputted number can be infinently high it just must be an integer.
+
+Using the sample function, the code will then select a single number within the specified range and then if that number is even it will return the user should get a dog and if its odd a cat. 
