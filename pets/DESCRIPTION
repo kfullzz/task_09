@@ -1,4 +1,5 @@
 Package: pets
+Type: Package
 Title: A Function for Prospective Pet Owners
 Version: 1.0
 Authors@R: person("Kate", "Fullerton", email = "kfulle16@vols.utk.edu", role = c("aut", "cre"))
